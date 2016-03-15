@@ -587,11 +587,8 @@
   <project path="hardware/qcom/display-caf/msm7x30" name="android-revolution-project/android_hardware_qcom_display-legacy" revision="cm-12.0-caf-7x30" />
   <project path="hardware/qcom/media-caf/msm7x30" name="android-revolution-project/android_hardware_qcom_media-legacy" revision="cm-12.0-legacy-msm7x30" />
   <project path="kernel/htc/msm7x30" name="android-revolution-project/android_kernel_htc_msm7x30" revision="cm-12.0" />
-  <project path="local_manifest" name="android-revolution-project/android" revision="cm-12.0" />
   <project path="packages/apps/ProximityRecalibrator" name="android-revolution-project/android_packages_apps_ProximityRecalibrator" revision="cm-12.0" />
-  <project path="out/target/product/saga/system/priv-app" name="android-revolution-project/android_privapps_ARPSettings" revision="cabov1.0lp5.0.2" />
-  <project path="out/target/product/saga/system/priv-app" name="android-revolution-project/android_privapps_OmniSwitch" revision="cabov1.0lp5.0.2" />
-  <project path="out/target/product/saga/system/priv-app" name="android-revolution-project/android_privapps_KernelAdiutor" revision="cabov1.0lp5.0.2" />
+  <project path="out/target/product/saga/system/priv-app" name="android-revolution-project/android_privapps_ARPSettings" <project path="out/target/product/saga/system/priv-app" name="android-revolution-project/android_privapps_OmniSwitch" <project path="out/target/product/saga/system/priv-app" name="android-revolution-project/android_privapps_KernelAdiutor" revision="cabov1.0lp5.0.2" />
   <project path="system/core" name="android-revolution-project/android_system_core" revision="cm-12.0" />
 
   <!-- Saga -->
