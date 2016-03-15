@@ -602,12 +602,11 @@
     <project path="prebuilts/gcc/linux-x86/arm/clang-3.4-linaro" name="platform/prebuilts/gcc/linux-x86/arm/clang-3.4-linaro" remote="linaro-android" revision="master" />
 	<project path="prebuilts/gcc/linux-x86/arm/clang-3.5-linaro" name="platform/prebuilts/gcc/linux-x86/arm/clang-3.5-linaro" remote="linaro-android" revision="master" />
 	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1-linaro" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2-linaro" remote="linaro-android" revision="master" />
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro-android" revision="master" />
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" remote="linaro-android" revision="master" />
 	<project path="prebuilts/gcc/linux-x86/arm/aarch64-linux-android-linaro" name="platform/prebuilts/gcc/linux-x86/arm/aarch64-linux-android-linaro" remote="linaro-android" revision="master" />
 	<project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" remote="linaro-android" revision="master" />
 	<project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.1-linaro" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.1-linaro" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.2-linaro" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.2-linaro" remote="linaro-android" revision="master" />
+	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8-linaro" remote="linaro-android" revision="master" />
+	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-linaro" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-linaro" remote="linaro-android" revision="master" />
 </manifest>
