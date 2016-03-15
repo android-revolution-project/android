@@ -21,6 +21,5 @@ git config --global user.name "yourname"
 repo init -u git://github.com/android-revolution-project/android.git -b master
 repo sync -f
 7. After downloading the sources build the system
-cd cm12 && . build/envsetup.sh && lunch arp_saga-userdebug && make otapackage
-
+cd cm12 && . build/envsetup.sh && lunch arp_saga-userdebug && ...
 Wait, then enjoy ;)
