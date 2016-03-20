@@ -5,17 +5,6 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.0.2_r1" />
-
-	<remote  name="korg"
-           fetch="git://android.git.linaro.org/"
-           review="review.android.git.linaro.org" />
-
-  <remote  name="linaro-android"
-           fetch="git://android.git.linaro.org/"
-           review="review.android.git.linaro.org" />
-
-  <remote  name="linaro-other"
-           fetch="git://git.linaro.org/" />
 		   
   <remote  name="github"
            fetch=".."
@@ -586,9 +575,9 @@
   <project path="hardware/qcom/media-caf/msm7x30" name="android-revolution-project/android_hardware_qcom_media-legacy" revision="cm-12.0-legacy-msm7x30" />
   <project path="kernel/htc/msm7x30" name="android-revolution-project/android_kernel_htc_msm7x30" revision="cm-12.0" />
   <project path="packages/apps/ProximityRecalibrator" name="android-revolution-project/android_packages_apps_ProximityRecalibrator" revision="cm-12.0" />
-  <project path="out/target/product/saga/system/priv-app/Settings" name="android-revolution-project/android_privapps_ARPSettings" revision="cabov1.0lp5.0.2" />
-  <project path="out/target/product/saga/system/priv-app/OmniSwitch" name="android-revolution-project/android_privapps_OmniSwitch" revision="cabov1.0lp5.0.2" />
-  <project path="out/target/product/saga/system/priv-app/KernelAdiutor" name="android-revolution-project/android_privapps_KernelAdiutor" revision="cabov1.0lp5.0.2" />
+  <project path="packages/apps/Settings" name="android-revolution-project/android_packages_apps_Settings" revision="lpv1.0" />
+  <project path="packages/apps/OmniSwitch" name="android-revolution-project/android_packages_apps_OmniSwitch" revision="lpv1.0" />
+  <project path="out/target/product/saga/system/priv-app/DeviceControl" name="android-revolution-project/android_packages_apps_DeviceControl" revision="lpv1.0" />
   <project path="system/core" name="android-revolution-project/android_system_core" revision="cm-12.0" />
 
   <!-- Saga -->
@@ -597,15 +586,4 @@
   <!-- Common -->
   <project path="device/htc/msm7x30-common" name="android-revolution-project/android_device_htc_msm7x30-common" revision="cm-12.0" />
   <project path="vendor/htc" name="android-revolution-project/proprietary_vendor_htc" revision="cm-12.0" />
-
-  <!-- Linaro -->
-    <project path="prebuilts/gcc/linux-x86/arm/clang-3.4-linaro" name="platform/prebuilts/gcc/linux-x86/arm/clang-3.4-linaro" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/arm/clang-3.5-linaro" name="platform/prebuilts/gcc/linux-x86/arm/clang-3.5-linaro" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/arm/aarch64-linux-android-linaro" name="platform/prebuilts/gcc/linux-x86/arm/aarch64-linux-android-linaro" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8-linaro" remote="linaro-android" revision="master" />
-	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-linaro" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-linaro" remote="linaro-android" revision="master" />
 </manifest>
