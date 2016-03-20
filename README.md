@@ -6,20 +6,37 @@ apt-get install bison build-essential curl flex lib32ncurses5-dev lib32readline-
 2. Install JDK
 add-apt-repository ppa:webupd8team/java && apt-get update && apt-get install oracle-java7-installer -y
 3. Install repo
-# exit
+
+exit
+
 # mkdir ~/bin
+
 # PATH=~/bin:$PATH
+
 # cd ~/bin
+
 # curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
 # chmod a+x ~/bin/repo
+
 4. Creating folder for src
+
 # mkdir ~/cm12 && cd cm12
+
 5. Enter in git (if not log in)
+
 # git config --global user.email "youremail@ololo.com"
+
 # git config --global user.name "yourname"
+
 6. Download the sources
+
 # repo init -u git://github.com/android-revolution-project/android.git -b master
+
 # repo sync -f
+
 7. After downloading the sources build the system
+
 # cd cm12 && . build/envsetup.sh && lunch arp_saga-userdebug && make otapackage
+
 Wait, then enjoy ;)
