@@ -578,6 +578,7 @@
   <project path="packages/apps/Settings" name="android-revolution-project/android_packages_apps_Settings" revision="lpv1.0" />
   <project path="packages/apps/OmniSwitch" name="android-revolution-project/android_packages_apps_OmniSwitch" revision="lpv1.0" />
   <project path="out/target/product/saga/system/priv-app/DeviceControl" name="android-revolution-project/android_packages_apps_DeviceControl" revision="master" />
+  <project path="out/target/product/saga/system/priv-app/OSFP" name="android-revolution-project/android_packages_OSFP" revision="master" />
   <project path="system/core" name="android-revolution-project/android_system_core" revision="cm-12.0" />
 
   <!-- Saga -->
